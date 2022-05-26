@@ -13,7 +13,7 @@ before_script:
   - ls -la # this command just prints the contents of the current working directory.
 
 script: 
-  - mvn clean package jacoco:report coveralls:report cobertura:cobertura 
+  - mvn clean package jacoco:report coveralls:report
     # the coveralls:report is required only for the coveralls coverage service
     # the cobertura:cobertura is optional only for advanced coverage reporting and, if exists, is used by CodeCov
 
