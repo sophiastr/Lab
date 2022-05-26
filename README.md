@@ -1,3 +1,4 @@
+[![Build Status](https://app.travis-ci.com/sophiastr/Lab.svg?token=VoWJYrty4EcKbAksGywU&branch=development)](https://app.travis-ci.com/sophiastr/Lab)
 # Lab
 A repository for the needs of the Software Eningineering in Practice (SEiP) course offered by the Department of Management Science & Technology of the Athens University of Economics and Business.
 
