@@ -13,5 +13,6 @@
 	</properties>
 	<modules>
 		<module>gradeshistogram</module>
+		<module>arithmeticoperations</module>
 	</modules>
 </project>
