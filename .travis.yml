@@ -9,7 +9,7 @@ branches:
   - development
 
 before_script: 
-  - cd sophiastr/Lab  # enter Maven root directory
+  - cd arithmeticoperations  # enter Maven root directory
   - ls -la # this command just prints the contents of the current working directory.
 
 script: 
