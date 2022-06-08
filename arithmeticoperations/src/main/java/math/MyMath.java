@@ -37,8 +37,10 @@ public class MyMath {
 	 * @exception IllegalArgumentException when the number is 0 or 1
 	 */
 	public boolean isPrime(int n) {
-		if (n < 2) {
+		if (n == 0 || n == 1) {
 			throw new IllegalArgumentException("Zero Or One");
+		} else if (n < 0) {
+			throw new IllegalArgumentException("Negative");
 		} else if (n == 2) {
 			return true;
 		} else {

@@ -6,7 +6,7 @@ import org.junit.runners.Suite;
 
 
 @RunWith(Suite.class)
-@Suite.SuiteClasses({MyMathTest.class, MyMathFactorialParameterizedTest.class})
+@Suite.SuiteClasses({MyMathFactorialParameterizedTest.class, MyMathTest.class})
 public class MyMathTestSuite {
 	/**
 	 * This class is empty.
