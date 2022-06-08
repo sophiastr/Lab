@@ -9,7 +9,7 @@ package math;
 * @since   2020-04-06 
 */
 public class ArithmeticOperations {
-	
+
 	/**
 	 * Performs the basic arithmetic operation of division.
 	 * @param numerator the numerator of the operation
@@ -19,11 +19,11 @@ public class ArithmeticOperations {
 	 */
 	public double divide(double numerator, double denominator) {
 		if (denominator == 0) throw new ArithmeticException("Cannot divide with zero");
-		
+
 		return numerator/denominator;
 	}
-	
-	
+
+
 	/**
 	 * Performs the basic arithmetic operation of multiplication 
 	 * between two positive Integers
@@ -42,6 +42,6 @@ public class ArithmeticOperations {
 			throw new IllegalArgumentException("The product does not fit in an Integer variable");		
 		}
 	}
-	
-	
+
+
 }

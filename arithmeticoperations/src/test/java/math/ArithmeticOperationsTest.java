@@ -7,6 +7,8 @@ import org.junit.rules.ExpectedException;
 
 
 public class ArithmeticOperationsTest {
+	@Rule
+	public ExpectedException thrown = ExpectedException.none();
 	
 	ArithmeticOperations ar = new ArithmeticOperations();
 	@Test
@@ -56,6 +58,13 @@ public class ArithmeticOperationsTest {
 	}
 	
 	@Test
+	public void test_multiply_divide_zero() {
+		 thrown.expect(ArithmeticException.class);
+		 thrown.expectMessage("Cannot divide with zero");
+		 ar.divide(3, 0);
+	}
+	
+	@Test
 	public void test_multiply_multiplied2by4() {
 		Assert.assertEquals(8, ar.multiply(2, 4));
 	}
@@ -65,8 +74,7 @@ public class ArithmeticOperationsTest {
 		Assert.assertEquals(1, ar.multiply(1, 1));
 	}
 	
-	@Rule
-	public ExpectedException thrown = ExpectedException.none();
+	
 	
 	@Test
 	public void test_multiply_negative_number() {
@@ -107,7 +115,7 @@ public class ArithmeticOperationsTest {
 	public void test_multiply_not_integer_example3() {
 		 thrown.expect(IllegalArgumentException.class);
 		 thrown.expectMessage("The product does not fit in an Integer variable");
-		 ar.multiply(Integer.MAX_VALUE/5, 10);
+		 ar.multiply(Integer.MAX_VALUE/5,  10);
 	}
 
 	
