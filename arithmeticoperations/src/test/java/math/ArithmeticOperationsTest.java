@@ -74,6 +74,11 @@ public class ArithmeticOperationsTest {
 		Assert.assertEquals(1, ar.multiply(1, 1));
 	}
 	
+	@Test
+	public void test_multiply_multiplied80() {
+		Assert.assertEquals(80, ar.multiply(80, 1));
+	}
+	
 	
 	
 	@Test
