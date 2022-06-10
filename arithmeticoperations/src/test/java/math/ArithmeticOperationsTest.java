@@ -58,7 +58,7 @@ public class ArithmeticOperationsTest {
 	}
 	
 	@Test
-	public void test_multiply_divide_zero() {
+	public void test_divide_zero() {
 		 thrown.expect(ArithmeticException.class);
 		 thrown.expectMessage("Cannot divide with zero");
 		 ar.divide(3, 0);
@@ -69,6 +69,12 @@ public class ArithmeticOperationsTest {
 		Assert.assertEquals(8, ar.multiply(2, 4));
 	}
 	
+	@Test
+	public void test_multiply_multiplied0by4() {
+		Assert.assertEquals(0, ar.multiply(0, 4));
+	}
+	
+
 	@Test
 	public void test_multiply_multiplied1by1() {
 		Assert.assertEquals(1, ar.multiply(1, 1));
@@ -112,6 +118,11 @@ public class ArithmeticOperationsTest {
 	}
 	
 	@Test
+	public void test_multiply_withyzero() {
+		 ar.multiply(3, 0);
+	}
+	
+	@Test
 	public void test_multiply_not_integer() {
 		 thrown.expect(IllegalArgumentException.class);
 		 thrown.expectMessage("The product does not fit in an Integer variable");
@@ -146,6 +157,8 @@ public class ArithmeticOperationsTest {
 		 thrown.expectMessage("The product does not fit in an Integer variable");
 		 ar.multiply(Integer.MAX_VALUE/3+1,  3);
 	}
+	
+
 	
 
 	
