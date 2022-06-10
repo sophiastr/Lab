@@ -79,6 +79,15 @@ public class ArithmeticOperationsTest {
 		Assert.assertEquals(80, ar.multiply(80, 1));
 	}
 	
+	@Test
+	public void test_multiply_bigx() {
+		Assert.assertEquals(Integer.MAX_VALUE, ar.multiply(Integer.MAX_VALUE, 1));
+	}
+	
+	@Test
+	public void test_multiply_bigy() {
+		Assert.assertEquals(Integer.MAX_VALUE, ar.multiply(1, Integer.MAX_VALUE));
+	}
 	
 	
 	@Test
