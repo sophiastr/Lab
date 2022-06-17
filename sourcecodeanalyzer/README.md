@@ -87,7 +87,7 @@ In each Strategy pattern we introduced a Null Object that defines what will happ
 Examples: NullAnlyzer, NullReader, NullWriter
 
 **Pros:**
-A Client is no longer responsible for checking for null reference.
+A Client is no longer responsible for checking for null reference. 
 Errors occurs when something goes wrong
 
 **Cons**
