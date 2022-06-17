@@ -28,7 +28,7 @@ The code refers to a software system that reads a Java source code file that is 
 
 The purpose of the assignment is to modify the code and implement some design patterns, in order to improve the design quality of the system.
 
-[README Design Patterns assignment's code base](sourcecodeanalyzer/readme)
+[README Design Patterns assignment's code base](sourcecodeanalyzer/README.md)
 
 ## Contributing
 You are more than welcome to contribute in this project. Just have in mind that the repository aims at providing an overview of unit testing functionality and Continuous Integration plug-ins related to testing. 
