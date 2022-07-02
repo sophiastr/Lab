@@ -20,6 +20,16 @@ This is a Java project serving as a brief demonstration for Unit Testing for the
 
 [README Arithmetic Operations](arithmeticoperations/README.md)
 
+# Design Patterns assignment's code base
+
+Τhis repository is used to practice the implementation of design patterns, in the context of the 4th Lab Assignment of the Applied Software Engineering course.
+
+The code refers to a software system that reads a Java source code file that is stored locally or on the web, calculates the Lines of Code (LOC), Number of Classes (NOC) and Number of Methods (NOM) metrics, and finally, exports these metrics to an output file.
+
+The purpose of the assignment is to modify the code and implement some design patterns, in order to improve the design quality of the system.
+
+[README Design Patterns assignment's code base](sourcecodeanalyzer/README.md)
+
 ## Contributing
 You are more than welcome to contribute in this project. Just have in mind that the repository aims at providing an overview of unit testing functionality and Continuous Integration plug-ins related to testing. 
 - If you have any suggestions please open an issue. 

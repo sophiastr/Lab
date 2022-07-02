@@ -23,6 +23,7 @@
 	<modules>
 		<module>gradeshistogram</module>
 		<module>arithmeticoperations</module>
+		<module>sourcecodeanalyzer</module>
 	</modules>
 	<build>
 		<plugins>
